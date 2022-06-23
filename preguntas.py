@@ -82,7 +82,7 @@ def pregunta_03():
     # Importe Pipeline
     # Importe OneHotEncoder
     #from ____ import ____
-    from sklearn.feature_selection import make_column_transformer, SelectKBest, f_regression, LinearRegression, Pipeline, OneHotEncoder, make_column_selector, Pipeline
+    from sklearn.feature_selection import make_column_transformer, SelectKBest, f_regression, LinearRegression, Pipeline, OneHotEncoder, make_column_selector, Pipeline, GridSearchCV
 
     """
     pipeline = ____(
